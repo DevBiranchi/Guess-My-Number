@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+html {
+  font-size: 20px;
+}
+
+header {
+  background-color: #222222;
+  width: 100vw;
+  height: 40vh;
+  border-bottom: 3px solid #eee;
+}
+
+/* Layouts! */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  height: 60vh;
+  background-color: #222222;
+  width: 100vw;
+}
+
+.left {
+  width: 50%;
+  padding: 20px;
+  float: left;
+  height: 60vh;
+}
+
+.right {
+  width: 50%;
+  padding: 20px;
+  float: right;
+  height: 60vh;
+}
+
+/* Layouts! */
+
+/* Styles */
+
+.btn {
+  margin: 2em;
+  padding: 0.8em;
+  border: none;
+  height: 40px;
+  width: 115px;
+  font-size: 0.7em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.between {
+  color: #eee;
+  font-size: 0.6em;
+  margin: 3.4em 1.5em 2em 2em;
+}
+
+.myNumber {
+  color: #eee;
+  font-size: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.digit {
+  display: flex;
+  color: #222222;
+  background-color: #eee;
+  height: 60px;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.guess {
+  height: 50px;
+  background-color: inherit;
+  border: 3px solid #eee;
+  width: 200px;
+  padding: 2.5rem;
+  color: #eee;
+  text-align: center;
+  margin-left: 40%;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.buttonCheck {
+  height: 50px;
+  text-align: center;
+  margin: 7% 55% 0 45%;
+  padding: 0.8em;
+  border: none;
+  width: 115px;
+  font-size: 0.7em;
+  vertical-align: middle;
+}
+
+.right p {
+  color: #eee;
+  font-size: 0.9em;
+  margin: 30px;
+}
+
+.right p:nth-child(2) {
+  margin-top: 70px;
+}
+
+.right p:nth-child(1) {
+  margin-top: 60px;
+}
+/* Styles */
